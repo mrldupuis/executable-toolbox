@@ -49,6 +49,12 @@ Install all packages from the updated requirements file:
 ```
 pip install -r requirements.txt
 ```
+If you run into a error related to a conflict between pathlib and PyInstaller, run the following command:
+```
+pip uninstall pathlib
+```
+
+
 ### Recording Project Details
 
 Record the python version you are using and the complete project requirements:
