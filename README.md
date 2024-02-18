@@ -4,6 +4,13 @@ Compiles executable files to run conversion and manipulation for pdf, image, and
 
 Developed for windows machines. Has not been tested on Unix or MacOS
 
+## Steps for Use
+
+1. Set up virtual environment in the cloned repository by following the steps below.
+2. Run the compile_executables.bat file to compile all executable files.
+3. Use an executable file by moving it to within the folder containing files to manipulate.
+4. Run the executable file.
+
 ## Setting up virtual environment
 
 Good step by step guides are found at the links below: 
