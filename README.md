@@ -7,7 +7,7 @@ Developed for windows machines. Has not been tested on Unix or MacOS
 ## Steps for Use
 
 1. Set up virtual environment in the cloned repository by following the steps below.
-2. Run the compile_executables.bat file to compile all executable files.
+2. Run the `compile_executables.bat` file to compile all executable files.
 3. Use an executable file by moving it to within the folder containing files to manipulate.
 4. Run the executable file.
 
@@ -23,34 +23,35 @@ It is best practice to create a virtual environment for each Python project you 
 
 ### Creating a Virtual Environment
 
-First, create a virtual environment. Make sure you add venv/ to your .gitignore file if you are using Git:
-
+First, create a virtual environment. Make sure you add venv/ to your `.gitignore` file if you are using Git:
+```
 python -m venv venv
-
+```
 ### Activating your Virtual Environment
 
 Activate your environment. On Windows, use:
-
+```
 venv\scripts\activate
-
+```
 On Unix or MacOS, use:
-
+```
 source venv/bin/activate
-
+```
 ### Viewing Installed Packages
 
 You can see your Python packages in the virtual environment at any time by typing:
-
+```
 pip list
-
+```
 ### Installing Required Packages
 
 Install all packages from the updated requirements file:
-
+```
 pip install -r requirements.txt
-
+```
 ### Recording Project Details
 
 Record the python version you are using and the complete project requirements:
-
+```
 python --version > user_python_version.txt
+```
