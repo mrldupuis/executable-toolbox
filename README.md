@@ -8,7 +8,7 @@ Developed for windows machines. Has not been tested on Unix or MacOS
 
 Good step by step guides are found at the links below: 
 - [Virtual Environments for Absolute Beginners: What Is It and How to Create One (Examples)](https://towardsdatascience.com/virtual-environments-for-absolute-beginners-what-is-it-and-how-to-create-one-examples-a48da8982d4b)
-- [Virtual Environments](]https://towardsdatascience.com/virtual-environments-104c62d48c54)
+- [Virtual Environments](https://towardsdatascience.com/virtual-environments-104c62d48c54)
 
 In short, not using a virtual environment for your project means that all Python packages you have imported are shared across all projects. This can lead to several issues and conflicts, especially when projects are shared between multiple engineers or when you are working on multiple projects simultaneously. In the context of creating executables, it results in all your packages being bundled into unnecessarily large executables with slow load times.
 
