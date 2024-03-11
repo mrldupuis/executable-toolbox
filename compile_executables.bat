@@ -10,6 +10,8 @@ python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_interleaver.py
 python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_interleaver_recursive.py
 python -m PyInstaller -F --icon="icons//exe_icon.ico" image_to_pdf_converter.py
 python -m PyInstaller -F --icon="icons//exe_icon.ico" image_to_pdf_converter_recursive.py
+python -m PyInstaller -F --icon="icons//exe_icon.ico" rename_files.py
+python -m PyInstaller -F --icon="icons//exe_icon.ico" rename_files_recursive.py
 
 @echo on
 del "*.spec"

@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import imageio
 
-duration = input("Enter seconds per frame...")
+duration = input("Enter seconds per frame: ")
 file_list = []
 for extension in ['*.tif','*.tiff','*.png','*.jpg','*.jpeg']:
 	file_list.extend(Path(os.getcwd()).glob(extension))
