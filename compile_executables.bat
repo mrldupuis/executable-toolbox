@@ -2,16 +2,16 @@
 call venv\Scripts\activate.bat
 mkdir dist
 python create_ico.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" animate_images.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" animate_images_recursive.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" animate_images.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" animate_images_recursive.py
 python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_compiler.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_compiler_recursive.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_interleaver.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_interleaver_recursive.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" image_to_pdf_converter.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" image_to_pdf_converter_recursive.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" rename_files.py
-python -m PyInstaller -F --icon="icons//exe_icon.ico" rename_files_recursive.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_compiler_recursive.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_interleaver.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" pdf_interleaver_recursive.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" image_to_pdf_converter.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" image_to_pdf_converter_recursive.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" rename_files.py
+@REM python -m PyInstaller -F --icon="icons//exe_icon.ico" rename_files_recursive.py
 
 @echo on
 del "*.spec"
